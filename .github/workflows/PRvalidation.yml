@@ -1,0 +1,11 @@
+name: PR Validation
+on: 
+  pull_request:
+    types: [opened]
+
+jobs:
+  check-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print PR Details
+        run: echo "A new PR has been created!"
