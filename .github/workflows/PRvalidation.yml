@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print PR Details
-        run: echo "A new PR has been created!"
+        run: echo "A new PR has been created finally!"
